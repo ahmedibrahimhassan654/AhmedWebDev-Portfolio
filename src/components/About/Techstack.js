@@ -3,19 +3,14 @@ import { Col, Row } from "react-bootstrap";
 
 import {
   DiJavascript1,
-  DiReact,
   DiNodejs,
   DiMongodb,
-
   DiGit,
- 
-
 } from "react-icons/di";
 import {
 
   SiFirebase,
   SiNextdotjs,
-
   SiTypescript ,
   SiRedux 
 } from "react-icons/si";

@@ -4,8 +4,7 @@ import {
   SiVisualstudiocode,
   SiPostman,
   SiSlack,
-  SiVercel,
-  SiMacos,
+
   SiCanva 
 } from "react-icons/si";
 import { TbBrandRedux  } from "react-icons/tb";
