@@ -32,7 +32,7 @@ function Home2() {
               <br />
               My field of Interest's are  &nbsp;
               <i>
-                <b className="purple">Front End Side with React.js and Next.js </b> 
+                <b className="purple">Front End Side with React.js and Next.js with redux </b> 
               
               </i>
               <br />
