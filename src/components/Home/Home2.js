@@ -4,9 +4,10 @@ import myImg from "../../Assets/cv-image.jpg";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
-  AiOutlineTwitter,
-  AiFillInstagram,
+ 
 } from "react-icons/ai";
+import { MdMarkEmailRead } from "react-icons/md";
+
 import { FaLinkedinIn } from "react-icons/fa";
 
 function Home2() {
@@ -24,7 +25,7 @@ function Home2() {
               <br />i have experience in modern web tehnologies  
               <i>
                 <b className="purple"> Advance knowledge in HTML, CSS, and
-                  JS with minimal experience in TS. </b>
+                  JS with  experience in building react js app with Type script . </b>
                   <b className="purple"> Building Server side with node js , mongo db, express Js   </b>
               </i>
               <br />
@@ -40,10 +41,16 @@ function Home2() {
               <i>
                 <b className="purple">
                   {" "}
-                  profitional in building Responsive web site for diffrent size screen
-                </b>
+                  I am a professional in building responsive websites for different screen sizes."                </b>
               </i>
-           
+              <br />
+              <br />
+              Well-experienced with development
+                 tools such as 
+              <b className="purple"> Git, Github, Gitlab, Linux,
+                     and AWS.
+              </b>  
+              
             </p>
           </Col>
           <Col md={4} className="myAvtar">
@@ -91,12 +98,12 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.instagram.com/soumyajit4419"
+                  href="mailto:ahmedibrahimhassan654@gmail.com"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
                 >
-                  <AiFillInstagram />
+                  <MdMarkEmailRead />
                 </a>
               </li>
             </ul>
