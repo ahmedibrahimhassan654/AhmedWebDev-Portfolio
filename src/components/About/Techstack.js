@@ -12,8 +12,11 @@ import {
   SiFirebase,
   SiNextdotjs,
   SiTypescript ,
-  SiRedux 
+  SiRedux ,
+  SiGoogleads 
 } from "react-icons/si";
+import { TbSeo } from "react-icons/tb";
+
 import { RiReactjsFill  } from "react-icons/ri";
 import { FaWordpress } from "react-icons/fa";
 
@@ -74,6 +77,15 @@ function Techstack() {
         <FaWordpress  />
         <h5 className="purple">Wordpress</h5> 
 
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <TbSeo   />
+        <h5 className="purple">Seo</h5> 
+
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiGoogleads />
+        <h5 className="purple">Google ads</h5> 
       </Col>
     </Row>
   );

@@ -16,17 +16,20 @@ function AboutCard() {
             looking for full time / part time job as <span className="purple">  React Js Developer </span>
             <br />
             <br />
-            Apart from coding, some other activities that I love to do!
+             some services that I can  do!
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Playing Games
+              <ImPointRight /> React /next Js Dev
             </li>
             <li className="about-activity">
-              <ImPointRight /> Writing Tech Blogs
+              <ImPointRight /> Node Js Dev 
             </li>
             <li className="about-activity">
-              <ImPointRight /> Travelling
+              <ImPointRight /> wordpress designer 
+            </li>
+            <li className="about-activity">
+              <ImPointRight /> SEO & Google Ads  
             </li>
           </ul>
 
