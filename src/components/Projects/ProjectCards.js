@@ -3,6 +3,7 @@ import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 import { CgWebsite } from "react-icons/cg";
 import { BsGithub } from "react-icons/bs";
+import { Link } from "react-router-dom";
 
 function ProjectCards(props) {
   return (
@@ -19,7 +20,11 @@ function ProjectCards(props) {
         </Button>
         {"\n"}
         {"\n"}
-
+     {/* Button to navigate to project details page using project title */}
+       <Link to={`/project/${encodeURIComponent(props.title)}`}>
+          <Button variant="primary" style={{ marginLeft: "10px" }}>
+            Red More           </Button>
+        </Link>
         {/* If the component contains Demo link and if it's not a Blog then, it will render the below component  */}
 
         {!props.isBlog && props.demoLink && (
@@ -27,7 +32,7 @@ function ProjectCards(props) {
             variant="primary"
             href={props.demoLink}
             target="_blank"
-            style={{ marginLeft: "10px" }}
+            style={{ marginLeft: "10px" ,marginTop:'10px'}}
           >
             <CgWebsite /> &nbsp;
             {"Demo"}
