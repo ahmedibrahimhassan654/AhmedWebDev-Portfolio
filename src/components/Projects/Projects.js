@@ -6,7 +6,7 @@ import Particle from "../Particle";
 import youtubeclone from "../../Assets/Projects/youtubeclone.PNG";
 
 import ZTMEcommerce from'../../Assets/Projects/ZTM-ecomerce.PNG'
-
+import deccoric from '../../Assets/Projects/deccoric.PNG'
 function Projects() {
   const projects = [
     {
@@ -22,6 +22,13 @@ function Projects() {
       description: "buidling Full stack ecommerce app with react js 18 ,app deployed in netlify ,mange state with redux or context api,connected with firebase DB used for storage data and user authentication ",
       ghLink: "https://github.com/ahmedibrahimhassan654/ZTM-Ecommerce-",
       demoLink: "https://react-firebase-ecommerce-app.netlify.app/"
+    },
+    {
+      imgPath: deccoric,
+      title: "Dropshiping ecommerce business ",
+      description:'building drop shiping ecommerce web site with wordpress,its integrated with aliexpress and tagger web site which gave me availability to import product data from them to my web site ,in addition i build the blog which integrated with AI tools gave me availability to write review on this product',
+      // ghLink: "https://github.com/ahmedibrahimhassan654/project_youtube_clone",
+      demoLink: "https://deccoric.com/"
     },
   ];
   return (

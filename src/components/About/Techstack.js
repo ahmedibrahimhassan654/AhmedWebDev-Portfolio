@@ -24,11 +24,7 @@ import { FaWordpress } from "react-icons/fa";
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiTypescript />
-        <h5 className="purple">Type-Script</h5> 
-
-      </Col>
+  
       <Col xs={4} md={2} className="tech-icons">
         <RiReactjsFill />
         <h5 className="purple">React Js </h5> 
@@ -50,6 +46,11 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         <SiRedux />
         <h5 className="purple">Redux</h5> 
+
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiTypescript />
+        <h5 className="purple">Type-Script</h5> 
 
       </Col>
       <Col xs={4} md={2} className="tech-icons">
