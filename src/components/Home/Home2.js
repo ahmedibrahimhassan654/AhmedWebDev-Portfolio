@@ -25,7 +25,7 @@ function Home2() {
               <br />i have experience in modern web tehnologies  
               <i>
                 <b className="purple"> Advance knowledge in HTML, CSS, and
-                  JS with  experience in building react js app with Type script . </b>
+                  JS with  experience in building react js app  . </b>
                   <b className="purple"> Building Server side with node js , mongo db, express Js   </b>
               </i>
               <br />

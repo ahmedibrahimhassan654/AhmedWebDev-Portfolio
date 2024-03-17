@@ -3,7 +3,7 @@
   <a href="https://ahmedwebdev.netlify.app/" target="_blank">ahmed .dev </a>
 </h2>
 <div align="center">
-  <img alt="Demo" src="./Images/readme-img1.png" />
+  <img alt="Demo" src="./Images/readme-img2.PNG" />
 </div>
 
 <br/>
