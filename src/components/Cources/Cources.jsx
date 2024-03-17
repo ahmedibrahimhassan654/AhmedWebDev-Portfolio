@@ -5,6 +5,8 @@ import CourseCard from "./CourseCard";
 
 
 import ZTMEcommerce from'../../Assets/cources/react js ZTM.PNG'
+import Ds from'../../Assets/cources/ds&algorithms.PNG'
+
 function Cources() {
   const projects = [
     {
@@ -13,6 +15,13 @@ function Cources() {
       description: "Build a massive E-commerce app with Redux, Hooks, GraphQL, Stripe, Firebase",
       courseLink: "https://www.udemy.com/course/complete-react-developer-zero-to-mastery/",
       ghLink: "https://github.com/ahmedibrahimhassan654/ZTM-Ecommerce-"
+    },
+    {
+      imgPath: Ds,
+      title: "Master the Coding Interview: Data Structures + Algorithms",
+      description: "Learn, implement, and use different Data StructuresLearn, implement and use different Algorithms",
+      courseLink: "https://www.udemy.com/course/master-the-coding-interview-data-structures-algorithms",
+      // ghLink: "https://github.com/ahmedibrahimhassan654/ZTM-Ecommerce-"
     },
    
   ];
