@@ -33,14 +33,15 @@ function ResumeNew() {
             &nbsp;Download CV
           </Button>
         </Row>
-
-        <Row className="resume" style={{ marginTop: "20px", marginBottom: "20px", display: "flex", justifyContent: "center" ,alignItems: "center"}}>
-          <Document file={pdf} style={{ width: "50%" }} onLoadSuccess={onDocumentLoadSuccess}>
-            {[...Array(numPages)].map((_, index) => (
-              <Page key={`page_${index + 1}`} pageNumber={index + 1} scale={width > 786 ? 1.7 : 0.6} />
-            ))}
-          </Document>
-        </Row>
+        <Row className="resume" style={{ marginTop: "20px", marginBottom: "20px", display: "flex", justifyContent: "center" }}>
+  <div style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
+    <Document file={pdf} onLoadSuccess={onDocumentLoadSuccess} style={{ maxWidth: "100%", maxHeight: "80vh" }}>
+      {[...Array(numPages)].map((_, index) => (
+        <Page key={`page_${index + 1}`} pageNumber={index + 1} width={width > 786 ? 1000 : 600} />
+      ))}
+    </Document>
+  </div>
+</Row>
 
         <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button
