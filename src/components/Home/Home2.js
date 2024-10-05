@@ -2,11 +2,9 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../Assets/cv-image.jpg";
 import Tilt from "react-parallax-tilt";
-import {
-  AiFillGithub,
- 
-} from "react-icons/ai";
+import { AiFillGithub } from "react-icons/ai";
 import { MdMarkEmailRead } from "react-icons/md";
+import { FaWhatsapp } from "react-icons/fa";
 
 import { FaLinkedinIn } from "react-icons/fa";
 
@@ -20,37 +18,37 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with <span className="purple"> Web Developmet </span>  and I experience in building <span className="purple"> React Apps </span> 
+              I fell in love with{" "}
+              <span className="purple"> Web Developmet </span> and I experience
+              in building <span className="purple"> online business </span>
               <br />
-              <br />i have experience in modern web tehnologies  
+              <br />i have experience in modern web tehnologies
               <i>
-                <b className="purple"> Advance knowledge in HTML, CSS, and
-                  JS with  experience in building react js app  . </b>
-                  <b className="purple"> Building Server side with node js , mongo db, express Js   </b>
+                <b className="purple">
+                  MERN Stack Web Developer{"Node js Backend Developer"}+
+                  {"React Js Web Developer"}
+                </b>
+                <b className="purple"></b>
               </i>
               <br />
               <br />
-              My field of Interest's are  &nbsp;
-              <i>
-                <b className="purple">Front End Side with React.js and Next.js with redux </b> 
-              
-              </i>
               <br />
               <br />
-              and also have experience in bulding web site with  <b className="purple">wordpress</b> installing diffrent kind of <b className="purple">Themes </b> installing suitable <b className="purple">plugins</b> for web site business  
+              and also have experience in bulding web site with{" "}
+              <b className="purple">wordpress</b> installing diffrent kind of{" "}
+              <b className="purple">Themes </b> installing suitable{" "}
+              <b className="purple">plugins</b> for web site business
               <i>
                 <b className="purple">
                   {" "}
-                  I am a professional in building responsive websites for different screen sizes."                </b>
+                  I am a professional in building responsive websites for
+                  different screen sizes."{" "}
+                </b>
               </i>
               <br />
               <br />
-              Well-experienced with development
-                 tools such as 
-              <b className="purple"> Git, Github, Gitlab, Linux,
-                     and AWS.
-              </b>  
-              
+              Well-experienced with development tools such as
+              <b className="purple"> Git, Github, Gitlab, Linux, and AWS.</b>
             </p>
           </Col>
           <Col md={4} className="myAvtar">
@@ -76,16 +74,16 @@ function Home2() {
                   <AiFillGithub />
                 </a>
               </li>
-              {/* <li className="social-icons">
+              <li className="social-icons">
                 <a
-                  href="https://twitter.com/Soumyajit4419"
+                  href="https://wa.link/4ueoif"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
                 >
-                  <AiOutlineTwitter />
+                  <FaWhatsapp />
                 </a>
-              </li> */}
+              </li>
               <li className="social-icons">
                 <a
                   href="https://www.linkedin.com/in/ahmed-ibrahim5588/"
