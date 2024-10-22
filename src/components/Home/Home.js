@@ -32,7 +32,7 @@ function Home() {
 
             <Col md={5} style={{ paddingBottom: 20 }}>
               <img
-                src={"./home logo.jpg"}
+                src={"./software-engineering-essentials.png"}
                 alt="home pic"
                 className="img-fluid"
                 style={{ maxHeight: "450px" }}

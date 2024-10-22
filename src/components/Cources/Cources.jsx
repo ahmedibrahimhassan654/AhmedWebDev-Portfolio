@@ -3,34 +3,37 @@ import { Container, Row, Col } from "react-bootstrap";
 import Particle from "../Particle";
 import CourseCard from "./CourseCard";
 
-
-import ZTMEcommerce from'../../Assets/cources/react js ZTM.PNG'
-import Ds from'../../Assets/cources/ds&algorithms.PNG'
+import ZTMEcommerce from "../../Assets/cources/react js ZTM.PNG";
+import Ds from "../../Assets/cources/ds&algorithms.PNG";
 
 function Cources() {
   const projects = [
     {
       imgPath: ZTMEcommerce,
       title: "Complete React Developer (w/ Redux, Hooks, GraphQL)",
-      description: "Build a massive E-commerce app with Redux, Hooks, GraphQL, Stripe, Firebase",
-      courseLink: "https://www.udemy.com/course/complete-react-developer-zero-to-mastery/",
-      ghLink: "https://github.com/ahmedibrahimhassan654/ZTM-Ecommerce-"
+      description:
+        "Build a massive E-commerce app with Redux, Hooks, GraphQL, Stripe, Firebase",
+      courseLink:
+        "https://www.udemy.com/course/complete-react-developer-zero-to-mastery/",
+      ghLink: "https://github.com/ahmedibrahimhassan654/ZTM-Ecommerce-",
     },
     {
       imgPath: Ds,
       title: "Master the Coding Interview: Data Structures + Algorithms",
-      description: "Learn, implement, and use different Data StructuresLearn, implement and use different Algorithms",
-      courseLink: "https://www.udemy.com/course/master-the-coding-interview-data-structures-algorithms",
+      description:
+        "Learn, implement, and use different Data StructuresLearn, implement and use different Algorithms",
+      courseLink:
+        "https://www.udemy.com/course/master-the-coding-interview-data-structures-algorithms",
       // ghLink: "https://github.com/ahmedibrahimhassan654/ZTM-Ecommerce-"
     },
-   
   ];
+
   return (
     <Container fluid className="project-section">
       <Particle />
       <Container>
         <h1 className="project-heading">
-          My Recent <strong className="purple">Cources  </strong>
+          My Recent <strong className="purple">Cources </strong>
         </h1>
         <p style={{ color: "white" }}>
           Here are a few cources I've worked on recently.
@@ -49,6 +52,39 @@ function Cources() {
             </Col>
           ))}
         </Row>
+
+        {/* <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <h1 className="project-heading">
+            My Recent <strong className="purple">certificates </strong>
+          </h1>
+          <p style={{ color: "white" }}>
+            Here are a few certificates I've worked on recently.
+          </p>
+        </Row> */}
+
+        <div>
+          <Container fluid className="resume-section">
+            <Particle />
+
+            <Row
+              className="resume"
+              style={{
+                marginTop: "20px",
+                marginBottom: "20px",
+                display: "flex",
+                justifyContent: "center",
+              }}
+            >
+              <div
+                style={{
+                  display: "flex",
+                  flexDirection: "column",
+                  alignItems: "center",
+                }}
+              ></div>
+            </Row>
+          </Container>
+        </div>
       </Container>
     </Container>
   );
